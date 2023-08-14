@@ -11,6 +11,58 @@ body, ul {
     padding: 0;
   }
   
+
+  .card-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .card {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    max-width: 100%;
+  }
+  
+  .job-title {
+    margin-top: 0;
+    color: #333;
+  }
+  
+  .company {
+    font-weight: bold;
+    color: #555;
+  }
+  
+  .dates {
+    color: #777;
+  }
+  
+  .description {
+    font-size: 14px;
+    margin-top: 10px;
+  }
+  
+  .links {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 15px;
+  }
+  
+  .link-item {
+    text-decoration: none;
+    color: #007bff;
+  }
+  
+  .link-item:hover {
+    text-decoration: underline;
+  }
+  
+
 /*HEADER*/
 
 header {
@@ -68,8 +120,12 @@ header {
     50% { opacity: 0; }
   }
 
+  #about hr {
+    margin-bottom: 38px;
+  }
+
   #about {
-    width: 95%;
+    width: 80%;
     margin: auto;
   }
 
@@ -79,6 +135,7 @@ header {
 
   h2 {
     text-align: center;
+  
   }
 
    hr {
@@ -123,6 +180,12 @@ header {
     }
   }
 
+  #experince hr {
+    margin-bottom: 38px;
+  }
+
+
+
   /*TESTIMONIAL*/
 
   @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Mono&display=swap');
@@ -141,10 +204,12 @@ header {
     width: 15%;
     margin: 0 auto;
     transform: translate(0px, -20px);
+    margin-bottom: 15px;;
 }
 
 .review {
-    width: 49%;
+    width: 30%;
+    height: 600px;
     margin: 0 auto;
     border-radius: 50px;
     background: #e0e0e0;
@@ -173,6 +238,21 @@ img {
 #job {
     text-transform: uppercase;
     color: #a3b18a;
+}
+
+.button-container {
+  margin-top: 180px;
+}
+
+@media only screen and (max-width: 600px) {
+  .review{
+    width: 80%;
+    height: 525px;
+  }
+
+  .button-container {
+    margin-top: 50px;
+  }
 }
 
 #btn {
@@ -426,7 +506,7 @@ p {
 }
 
 .contact-container p {
-  font-size: 18px;
+  font-size: 16px;
   margin-bottom: 30px;
 }
 
@@ -441,7 +521,7 @@ p {
 }
 
 .contact-item i {
-  font-size: 24px;
+  font-size: 18px;
   margin-right: 10px;
 }
 
