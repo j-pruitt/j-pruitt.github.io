@@ -247,7 +247,7 @@ img {
 @media only screen and (max-width: 600px) {
   .review{
     width: 80%;
-    height: 525px;
+    height: 600px;
   }
 
   .button-container {
