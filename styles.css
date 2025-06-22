@@ -1,45 +1,79 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>James Pruitt | Fractional Consultant</title>
-</head>
-<body>
-  <header>
-    <h1>James Pruitt</h1>
-    <p>Fractional Consultant • Zoho Systems Specialist • Business Workflow Strategist</p>
-  </header>
+/* styles.css */
 
-  <section id="intro">
-    <h2>Let’s Get Your Systems Working Smarter</h2>
-    <p>I help small businesses and founders streamline operations, automate chaos, and turn messy tech stacks into efficient workflows. Whether you're buried in email, overwhelmed by leads, or stuck in CRM purgatory—I’ll help you make it make sense.</p>
-  </section>
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f8f9fa;
+  color: #333;
+  line-height: 1.6;
+}
 
-  <section id="services">
-    <h2>Services Offered</h2>
-    <ul>
-      <li><strong>Business Systems Consulting</strong> – Clean up your Zoho apps, migrate CRMs, and simplify workflows.</li>
-      <li><strong>Marketing Automation</strong> – Build action plans, email drip campaigns, and AI-assisted lead flows.</li>
-      <li><strong>Tech Support & Optimization</strong> – Diagnose slow laptops, optimize performance, replace thermal paste, and secure systems.</li>
-      <li><strong>Custom Projects</strong> – Got something weird? Let's talk about it.</li>
-    </ul>
-  </section>
+header {
+  background-color: #ffffff;
+  border-bottom: 1px solid #ddd;
+  padding: 2rem 1rem;
+  text-align: center;
+}
 
-  <section id="about">
-    <h2>Why Work With Me?</h2>
-    <p>I’ve worked with top Zoho partners and led implementations across sales, marketing, and operations. I’m not just a systems guy—I’ve run teams, built tech stacks, and solved problems for startups and nonprofits alike. Whether you need a quick fix or a long-term strategy, I’m here to help you reclaim your time and energy.</p>
-  </section>
+header h1 {
+  font-size: 2.5rem;
+  margin: 0;
+  color: #222;
+}
 
-  <section id="contact">
-    <h2>Let’s Connect</h2>
-    <p>I'm currently booking local and remote clients. Get in touch for hourly support, scoped projects, or weird one-off jobs. First consults are always free.</p>
-    <p><strong>Email:</strong> james@brockbank-consulting.com</p>
-    <p><strong>Location:</strong> Based in North Houston, TX | Available remotely</p>
-  </section>
+header p {
+  margin-top: 0.5rem;
+  font-size: 1.2rem;
+  color: #555;
+}
 
-  <footer>
-    <p>&copy; 2025 James Pruitt. Built with grit, caffeine, and late-night lava lamp vibes.</p>
-  </footer>
-</body>
-</html>
+main {
+  max-width: 960px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+
+section {
+  margin-bottom: 2.5rem;
+  background-color: #fff;
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+}
+
+section h2 {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+  color: #111;
+  border-left: 4px solid #5b9bd5;
+  padding-left: 0.5rem;
+}
+
+ul {
+  list-style-type: disc;
+  padding-left: 1.5rem;
+}
+
+ul li {
+  margin-bottom: 0.75rem;
+}
+
+footer {
+  text-align: center;
+  font-size: 0.9rem;
+  color: #777;
+  padding: 2rem 1rem;
+  border-top: 1px solid #ddd;
+  background-color: #ffffff;
+}
+
+/* Responsive adjustments */
+@media (max-width: 600px) {
+  header h1 {
+    font-size: 2rem;
+  }
+
+  section h2 {
+    font-size: 1.5rem;
+  }
+}
